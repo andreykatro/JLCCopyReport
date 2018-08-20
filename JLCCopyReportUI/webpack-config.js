@@ -1,4 +1,5 @@
-﻿module.exports = {
+﻿
+module.exports = {
     devtool: 'source-map',
     entry: "./app.tsx",
     mode: "development",
@@ -11,6 +12,11 @@
     module: {
         rules: [
             {
+                test: /\.css$/,
+                loader: ['style-loader', 'css-loader']
+            },
+
+            {
                 test: /\.tsx$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
@@ -19,4 +25,4 @@
             }
         ]
     }
-}
+};

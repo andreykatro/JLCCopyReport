@@ -13,7 +13,18 @@
     "react-dom": "^16.4.1",
     "ts-loader": "4.0.1",
     "typescript": "2.7.2",
-    "webpack": "4.1.1",
     "webpack-cli": "2.0.11"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.0.0-beta.55",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "less": "^3.8.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.1.1"
   }
 }

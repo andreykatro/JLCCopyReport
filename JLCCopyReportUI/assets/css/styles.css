@@ -1,0 +1,27 @@
+﻿.link-to-button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .link-to-button:hover {
+        background-color: #555;
+    }
+
+    .link-to-button:active {
+        background-color: black;
+    }
+
+    .link-to-button:visited {
+        background-color: #ccc;
+    }
+
+.body-style-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
