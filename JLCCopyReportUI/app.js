@@ -10,7 +10,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./app.css");
+require("./assets/css/styles.css");
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Report = /** @class */ (function (_super) {
@@ -23,7 +23,8 @@ var Report = /** @class */ (function (_super) {
         return _this;
     }
     Report.prototype.render = function () {
-        return (React.createElement("a", { href: this.handleClick() }, "Download excel file"));
+        return (React.createElement("div", { class: 'body-style-center' },
+            React.createElement("a", { class: 'link-to-button', href: this.handleClick() }, "Download excel file")));
     };
     return Report;
 }(React.Component));
